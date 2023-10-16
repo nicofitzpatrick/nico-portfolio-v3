@@ -10,7 +10,7 @@ import "~/styles/globals.css";
 
 const MyApp: AppType = ({ Component, pageProps }) => {
   return (
-    <main className={`${inter.variable} font-sans`}>
+    <main className={`${inter.variable} bg-black font-sans`}>
       <Component {...pageProps} />
     </main>
   );
